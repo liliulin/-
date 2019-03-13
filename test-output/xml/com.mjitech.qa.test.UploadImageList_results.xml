@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Flat Interface"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.037">
+  <properties />
+  
+  
+            <testcase name="fault" time="0.037" classname="com.mjitech.qa.test.UploadImageList" />
+      
+</testsuite>

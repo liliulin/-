@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="mobile-micoo prgoram-login(failed)">
+    <classes>
+      <class name="com.mjitech.qa.test.VaildateLoginName">
+        <methods>
+          <include name="VaildateLoginNameByDabao"/>
+        </methods>
+      </class> <!-- com.mjitech.qa.test.VaildateLoginName -->
+      <class name="com.mjitech.qa.test.AddSkuToCart">
+        <methods>
+          <include name="beforerMethod"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- com.mjitech.qa.test.AddSkuToCart -->
+    </classes>
+  </test> <!-- mobile-micoo prgoram-login(failed) -->
+  <test name="Flat Interface(failed)">
+    <classes>
+      <class name="com.mjitech.qa.test.ListFault">
+        <methods>
+          <include name="list_fault"/>
+        </methods>
+      </class> <!-- com.mjitech.qa.test.ListFault -->
+      <class name="com.mjitech.qa.test.UpdateDoorClose">
+        <methods>
+          <include name="update_close_door"/>
+        </methods>
+      </class> <!-- com.mjitech.qa.test.UpdateDoorClose -->
+      <class name="com.mjitech.qa.test.AddSkuToCart">
+        <methods>
+          <include name="beforerMethod"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- com.mjitech.qa.test.AddSkuToCart -->
+      <class name="com.mjitech.qa.test.GetMachineData">
+        <methods>
+          <include name="getMachineData"/>
+        </methods>
+      </class> <!-- com.mjitech.qa.test.GetMachineData -->
+    </classes>
+  </test> <!-- Flat Interface(failed) -->
+  <test name="WeiXin Interface(failed)">
+    <classes>
+      <class name="com.mjitech.qa.test.AddSkuToCart">
+        <methods>
+          <include name="beforerMethod"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- com.mjitech.qa.test.AddSkuToCart -->
+      <class name="com.mjitech.qa.test.GetPagedMainpageData">
+        <methods>
+          <include name="test_login_with_openid"/>
+          <include name="get_paged_mainpage_data"/>
+        </methods>
+      </class> <!-- com.mjitech.qa.test.GetPagedMainpageData -->
+    </classes>
+  </test> <!-- WeiXin Interface(failed) -->
+</suite> <!-- Failed suite [Suite] -->

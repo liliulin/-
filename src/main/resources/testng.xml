@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="mobile-micoo prgoram-login">
+    <classes>
+      <class name="com.mjitech.qa.test.VaildateLoginName"/>
+      <class name="com.mjitech.qa.test.Login"/>
+    </classes>
+  </test>
+   
+   <!-- Test Flat -->
+  <test name="Flat Interface">
+  	<classes>
+      <class name="com.mjitech.qa.test.GetMachineData"/>
+      <class name="com.mjitech.qa.test.ListFault"/>
+      <class name="com.mjitech.qa.test.UpdateDoorClose"/>
+      <class name="com.mjitech.qa.test.UploadImageList" />
+    </classes>
+  </test>
+  
+  <test name="WeiXin Interface">
+  	<classes>
+  		<class name="com.mjitech.qa.test.GetPagedMainpageData"></class>
+  	</classes>
+  </test> 
+  
+  <test name="27 Interface">
+  	<classes>
+  		<class name="com.mjitech.qa.test.AddSkuToCart"></class>
+  	</classes>
+  </test>
+  <listeners>
+  	<listener class-name="org.uncommons.reportng.HTMLReporter" />
+  	<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+  </listeners>
+</suite> <!-- Suite -->

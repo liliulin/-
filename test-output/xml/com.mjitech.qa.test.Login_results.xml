@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mobile-micoo prgoram-login"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.831">
+  <properties />
+  
+  
+            <testcase name="login" time="0.059" classname="com.mjitech.qa.test.Login" />
+                <testcase name="login" time="0.044" classname="com.mjitech.qa.test.Login" />
+                <testcase name="login" time="0.047" classname="com.mjitech.qa.test.Login" />
+                <testcase name="login" time="0.031" classname="com.mjitech.qa.test.Login" />
+                <testcase name="login" time="0.650" classname="com.mjitech.qa.test.Login" />
+      
+</testsuite>

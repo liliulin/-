@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="27 Interface"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.290">
+  <properties />
+  
+  
+            <testcase name="update_order_status" time="0.190" classname="com.mjitech.qa.test.AddSkuToCart" />
+                <testcase name="getPayUrl" time="0.042" classname="com.mjitech.qa.test.AddSkuToCart" />
+                <testcase name="add_sku_to_cart" time="0.037" classname="com.mjitech.qa.test.AddSkuToCart" />
+                <testcase name="submitCart" time="0.682" classname="com.mjitech.qa.test.AddSkuToCart" />
+                <testcase name="get_order_detail_by_takingnumber" time="0.156" classname="com.mjitech.qa.test.AddSkuToCart" />
+                <testcase name="wxpay_callback_test" time="0.116" classname="com.mjitech.qa.test.AddSkuToCart" />
+                <testcase name="get_order_detail" time="0.067" classname="com.mjitech.qa.test.AddSkuToCart" />
+      
+</testsuite>

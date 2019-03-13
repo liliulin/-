@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.mjitech.qa.test.AddSkuToCart">
+        <methods>
+          <include name="submitCart"/>
+          <include name="get_order_detail"/>
+          <include name="get_order_detail_by_takingnumber"/>
+          <include name="wxpay_callback_test"/>
+          <include name="beforerMethod"/>
+          <include name="getPayUrl"/>
+          <include name="add_sku_to_cart"/>
+        </methods>
+      </class> <!-- com.mjitech.qa.test.AddSkuToCart -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
